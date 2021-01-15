@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menu-principal {   
+    position: initial; 
+    width: 100%;
+    height: 53px;
+    background-color: rgb(239, 247, 242);
+    border-bottom: 1.4px solid rgb(160, 44, 6);
+}
+.logo-1 img {    
+    float: left;    
+    margin: 0.1px 3px 3px 25px;    
+}
+.redes-sociais ul li {
+    margin-left: 8px;    
+    float: right;
+    list-style: none;    
+}
+.redes-sociais {    
+    padding: 8px 45px 5px 25px;
+}
+.coluna100perc{
+    
+}
+.header-2 {         
+    width: 100%;
+    height: 90px;    
+    background-color: white;   
+    margin: 0 auto;   
+}
+.menu {
+    width: 70%;
+    float: left;
+    padding: 3px;
+}
+.menu ul li {    
+    display: inline-block;
+    color: rgb(172, 47, 4);
+    height: 50px;    
+}
+.menu ul li:not(:first-child){
+    margin-left: 15px;
+}
+.menu ul li a {
+    color: rgba(172, 47, 4, 0.7);
+    text-shadow: 1.2px 1.2px rgba(159, 243, 156, 0.363);
+    font-family: sans-serif;
+    font-size: 13pt;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+.menu ul li a:hover {
+    color: rgba(14, 13, 8, 0.6);    
+}
+.menu ul li:hover {
+    border-bottom: 1.8px dashed rgba(236, 236, 12, 0.8);
+}
+.diamantinho {
+    position: relative;
+    width: 10%;
+    float: right;
+    padding-top: 12pt;
+}
+.content-1 {
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+    position: relative;   
+    border-bottom: 0.3px solid rgba(101, 194, 97, 0.897); 
+}
+.menu-regioes {
+    width: 13%;
+    height: 210px;    
+    float: left;
+    padding: 2px;
+    margin: 5px 2px 5px 2px;  
+    position: absolute;    
+}
+.menu-regioes table, th {
+    width: 98%;
+    height: 30px;
+    font-family: cursive;
+    font-size: 12pt;
+    color: rgb(150, 78, 78);
+    
+}
+.menu-regioes table, th, td {    
+    border: 0.8px solid rgba(96, 100, 63, 0.7);
+    border-collapse: collapse;
+    padding: 8.5px;  
+    background-color: rgba(236, 243, 235, 0.925);
+}
+.menu-regioes p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(68, 25, 5, 0.836);
+}
+.menu-regioes table, tr, td, a {
+    text-decoration: none !important; 
+    color: rgb(150, 78, 78);
+}
+.menu-regioes table tr td:hover {
+    background-color: rgba(158, 42, 4, 0.616);   
+}
+.campinhos {
+    width: 85%;
+    height: 350px;
+    position: relative;
+    float: right;   
+}
+.sub-titulo {
+    width: 85%;
+    height: 45px;        
+}
+.sub-titulo h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24pt;
+    color: rgba(68, 25, 5, 0.836);
+}
+.sub-titulo h1::after {
+    content: url('../img/drawing-football-photo-4_redimen.png');
+}
+.terrao {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.mini-campo1 {
+    width: 50%;
+    height: 280px;    
+    float: left;
+}
+.mini-campo1 img {
+    margin: 24px 5px 5px 165px;
+}
+.mini-campo2 {
+    width: 50%;
+    height: 280px;
+    float: right;
+}
+.mini-campo2 img {
+    margin: 24px 5px 5px 75px;
+}
+.mini-campo1 p {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(63, 25, 7, 0.61);
+    margin: 3px 58px 5px 5px;
+}
+.mini-campo2 p {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(63, 25, 7, 0.61);
+    margin: 3px 235px 5px 5px;
+}
+.mini-campo1 p::selection {
+    color: rgba(189, 60, 17, 0.801);
+    background:  rgba(47, 168, 43, 0.514);
+}
+.mini-campo2 p::selection {
+    color: rgba(189, 60, 17, 0.801);
+    background:  rgba(47, 168, 43, 0.514);
+}
+.content-2 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin: 0 auto;
+}
